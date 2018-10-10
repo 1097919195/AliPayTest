@@ -5,7 +5,7 @@ public class AlipayConstants {
     // 商户PID
     public static final String PARTNER = "2088811977704990";
 //    public static final String PARTNER = "";
-    // 商户收款账号
+    // 商户收款账号--邮箱或者手机号
     public static final String SELLER = "dev@ifensi.com";
 //    public static final String SELLER = "";
     // 商户私钥，pkcs8格式

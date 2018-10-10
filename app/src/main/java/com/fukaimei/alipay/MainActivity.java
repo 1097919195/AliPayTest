@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-//        EnvUtils.setEnv(EnvUtils.EnvEnum.SANDBOX);
+//        EnvUtils.setEnv(EnvUtils.EnvEnum.SANDBOX);//使用了沙箱的话一定要是沙箱的PID
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         et_goods_title = (EditText) findViewById(R.id.et_goods_title);
