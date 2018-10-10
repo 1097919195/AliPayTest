@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.EditText;
 
+import com.alipay.sdk.app.EnvUtils;
 import com.fukaimei.alipay.task.AlipayTask;
 
 public class MainActivity extends AppCompatActivity implements OnClickListener {
@@ -16,6 +17,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+//        EnvUtils.setEnv(EnvUtils.EnvEnum.SANDBOX);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         et_goods_title = (EditText) findViewById(R.id.et_goods_title);
